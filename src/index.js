@@ -11,7 +11,7 @@ const aRecibos = [
 const textoConAtraso = (txt) => console.log(txt);
 setTimeout(() => textoConAtraso("Pasaron 7 segundos"), 7000);
 
-/* aRecibos.forEach(recibos=>{
+aRecibos.forEach(recibos=>{
     console.log("Cliente: "+recibos.cliente + " importe: "+ recibos.importe);
 })
 
@@ -30,7 +30,7 @@ const conAumento = aRecibos.map(recibo => {
         id: recibo.id, numero: recibo.numero, importe: (recibo.importe*1.30), cliente: recibo.cliente
     }
 })
-console.log(conAumento); */
+console.log(conAumento);
 
 //Crear un archivo en forma sincrónica, agregar al archivo anterior la frase "nuevo texto" 
 
